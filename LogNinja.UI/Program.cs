@@ -1,9 +1,4 @@
-using PhotinoNET;
 using System;
-using System.Drawing;
-using System.IO;
-using System.Text;
-using System.Threading.Tasks;
 using Photino.Blazor;
 
 namespace LogNinja.UI
@@ -11,7 +6,7 @@ namespace LogNinja.UI
     public static class Program
     {
         [STAThread]
-        private static void Main(string[] args)
+        private static void Main(string[] _)
         {
             ComponentsDesktop.Run<Startup>("LogNinja"
                 , "wwwroot/index.html"
